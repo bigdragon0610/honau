@@ -6,3 +6,5 @@ usamaru.addEventListener('click', () => {
   honau.classList.toggle('color_red');
   heart_wrapper.insertAdjacentHTML('beforeend', heart);
 });
+
+document.addEventListener("dblclick", function(e){ e.preventDefault();}, { passive: false });
