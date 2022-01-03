@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+}
+
+.login_wrapper {
+    width: 500px;
+    margin: 5rem auto 0 auto;
+    text-align: center;
+}
+
+.usamaru_gif {
+    margin-top: 3rem;
+}
