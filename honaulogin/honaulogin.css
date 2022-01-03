@@ -1,0 +1,25 @@
+body {
+  background-color: pink;
+}
+
+.login_wrapper {
+  width: 100vw;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.usamaru_gif {
+  display: block;
+  width: 400px;
+  margin: 3rem auto 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .login_wrapper {
+    margin-top: 10rem;
+  }
+
+  .usamaru_gif {
+    width: 80vw;
+  }
+}

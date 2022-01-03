@@ -1,0 +1,52 @@
+body {
+  background-color: pink;
+}
+
+.main {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.honau_title {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.honau_img {
+  width: 400px;
+}
+
+.color_red {
+  color: red;
+}
+
+.heart_wrapper {
+  width: 500px;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+}
+
+.heart {
+  display: inline;
+  font-size: 2rem;
+  color: red;
+}
+
+@media screen and (max-width:500px) {
+  .honau_title {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .honau_img {
+    width: 80vw;
+    margin-bottom: 2rem;
+  }
+
+  .heart_wrapper {
+    width: 80vw;
+  }
+}
